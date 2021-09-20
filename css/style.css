@@ -75,3 +75,27 @@ main {
     text-decoration: line-through;
 }
 
+/* hover */
+#product-1st:hover {
+    content: url("../img/1b.webp");
+}
+
+#product-2nd:hover {
+    content: url("../img/2b.webp");
+}
+
+#product-3rd:hover {
+    content: url("../img/3b.webp");
+}
+
+#product-4th:hover {
+    content: url("../img/4b.webp");
+}
+
+#product-5th:hover {
+    content: url("../img/5b.webp");
+}
+
+#product-6th:hover {
+    content: url("../img/6b.webp");
+}
