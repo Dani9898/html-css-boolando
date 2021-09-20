@@ -1,0 +1,52 @@
+/* generali */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 70%;
+    margin: 20px auto;
+}
+
+/* main */
+.product {
+    width: 32%;
+    float: left;
+    margin-left: 1%;
+    position: relative;
+}
+
+.product img {
+    width: 100%;
+}
+
+.like {
+    background: white;
+    font-size: 200%;
+    padding: 5px 10px;
+    position: absolute;
+    right: 0;
+    top: 7%;
+}
+
+.product-info {
+    position: absolute;
+    left: 0;
+    bottom: 6%;
+    color: white;
+}
+
+.product-info span {
+    padding: 5px 4px;
+}
+
+.sconto {
+    background-color: #EB0037;
+}
+
+.sostenibilità {
+    background-color: #00875A;
+
+}
