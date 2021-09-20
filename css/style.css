@@ -10,7 +10,14 @@ main {
     margin: 20px auto;
 }
 
+.cf {
+    content:"";
+    display: table;
+    clear: both;
+}
+
 /* main */
+
 .product {
     width: 32%;
     float: left;
@@ -22,6 +29,7 @@ main {
     width: 100%;
 }
 
+/* cuore */
 .like {
     background: white;
     font-size: 200%;
@@ -31,14 +39,16 @@ main {
     top: 7%;
 }
 
-.product-info {
+/* sconto & sostenibilità */
+.sconto-sostenibilità {
     position: absolute;
     left: 0;
-    bottom: 6%;
+    bottom: 15%;
     color: white;
+    font-size: 85%;
 }
 
-.product-info span {
+.sconto-sostenibilità span {
     padding: 5px 4px;
 }
 
@@ -50,3 +60,13 @@ main {
     background-color: #00875A;
 
 }
+
+/* product-info */
+.sale {
+    color: red;
+}
+
+.no-sale {
+    text-decoration: line-through;
+}
+
