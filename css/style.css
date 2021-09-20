@@ -10,11 +10,14 @@ main {
     margin: 20px auto;
 }
 
+
 .cf {
     content:"";
     display: table;
     clear: both;
 }
+
+
 
 /* main */
 
@@ -22,7 +25,9 @@ main {
     width: 32%;
     float: left;
     margin-left: 1%;
+    margin-bottom: 40px;
     position: relative;
+    
 }
 
 .product img {
@@ -62,11 +67,11 @@ main {
 }
 
 /* product-info */
-.sale {
+.price {
     color: red;
 }
 
-.no-sale {
+.old-price {
     text-decoration: line-through;
 }
 
